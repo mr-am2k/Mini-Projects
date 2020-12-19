@@ -1,0 +1,82 @@
+*{
+    font-family: Roboto, sans-serif;
+    color: white;
+}
+body{
+    background-color:teal;
+}
+.main{
+    height: 500px;
+    width: 25%;
+    background-color:white;
+    margin: 10% auto;
+    border-style: solid;
+}
+.output{
+    border-radius: 15px;
+    margin-top: 1%;
+    margin-bottom: -10%;
+    margin-left: 2%;
+    background-color: black;
+    height: 100px;
+    width: 94%;
+    opacity: 0.9;
+    padding-right: 2%;
+    padding-top: 1%;
+    
+}
+.previous-operand{
+    height: 35px;
+    font-size: 18px;
+    text-align: right;
+}
+.current-operand{
+    height: 65px;
+    font-size: 24px;
+    text-align: right;
+    padding-top: 10px;
+}
+.allButtons{
+    height: 400px;
+    width: 100%;
+    margin-top: 12%;
+    margin-left: 2.5%;
+}
+.row{
+    margin-top: 2%;
+}
+.first-row>.two-sized {
+    width: 47%;
+    height: 65px;
+}
+.first-row>button{
+    width: 23%;
+    height: 65px
+}
+.middle-rows>button{
+    width: 23%;
+    height: 65px
+}
+.fifth-row>.two-sized {
+    width: 47%;
+    height: 65px;
+}
+.fifth-row>button{
+    width: 23%;
+    height: 65px
+}
+button.operator{
+    background-color: orange;
+}
+button#operator{
+    background-color: orange;
+}
+button{
+    background-color: gray;
+    border-radius: 15px;
+    font-size: 18px;
+    outline: none;
+}
+button:hover{
+    opacity: 0.8;
+}
